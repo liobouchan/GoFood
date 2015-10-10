@@ -1,0 +1,12 @@
+#barraDeNavegacion {
+    background-color:#FF6600;
+}
+#marcaNavbar{
+  color: #FFFFFF !important;
+}
+#textoNavbar{
+  color: #0047B2 !important;
+}
+body{
+  padding: 90px;
+}
