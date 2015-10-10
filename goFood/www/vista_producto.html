@@ -12,8 +12,11 @@
     <link href="css/views/index.css" rel="stylesheet">
 
     <link href="css/views/vistas_productos.css" rel="stylesheet">
+
   </head>
   <body>
+
+  <!-- Nav Bar -->
 
   <div class="navbar navbar-fixed-top" id="barraDeNavegacion">
         <div class="container">
@@ -28,12 +31,68 @@
         </div>
       </div>
 
-    <div class="form-group form-group-lg">
-        <label class="col-sm-2 control-label" for="formGroupInputLarge">Large label</label>
-        <div class="col-sm-10">
-            <input class="form-control" type="text" id="formGroupInputLarge" placeholder="Large input">
-        </div>
+    <!-- Formulario Vista Productos -->
+
+    <div id="id_producto" class="panel panel-default">
+     <div class="panel-heading">
+
+
+     <!-- <div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="..." alt="...">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
     </div>
+  </div>
+</div> -->
+
+
+
+        <div class="form-group">
+            <label for="inputProducto" class="col-sm-2 control-label">Id_Producto</label>
+        </div>
+
+     </div>
+      <div class="panel-body">
+          <form>
+      <div class="form-group">
+        <label for="Nombre">Nombre</label>
+      </div>
+
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+
+            <div class="form-group">
+                <div id="img_product">  
+                    <label for="Nombre">Imagen_Products</label>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+
+      <div class="form-group" id="precio">
+        <span class="label label-warning">Tiempo estimado hh:mm:ss </span>
+      </div>      
+
+      <div class="form-group" id="precio">
+        <span class="label label-success">Precio: $ 20.00</span>
+      </div>     
+      
+      <input id="registro" type="submit" value="Actualizar" class="btn btn-primary">
+      <input id="registro" type="submit" value="Borrar" class="btn btn-primary">
+
+    </form>
+      </div>
+  </div>
+
+
 
     <!-- Sección de JS -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
