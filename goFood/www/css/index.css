@@ -113,3 +113,11 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+
+#contenedorRegistro{
+    height: 600px;
+    max-width: 400px;
+    margin: 0 auto; 
+    border: 3px solid black;   
+
+}
