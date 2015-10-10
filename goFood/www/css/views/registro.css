@@ -1,7 +1,8 @@
 #contenedorRegistro{
-    height: 600px;
+    height: 750px;
     max-width: 400px;
     margin: 0 auto; 
-    border: 3px solid black;   
+}
 
+#login{
 }
