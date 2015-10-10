@@ -9,7 +9,13 @@
 }
 body{
   padding: 90px;
+  background-image: url("../../img/patternGoFood.png");
 }
 #contenedor{
   border-radius: 15px;
+}
+#imagen{
+  max-width:150px;
+  margin-top: 0px;
+  margin-left: 1px;
 }
